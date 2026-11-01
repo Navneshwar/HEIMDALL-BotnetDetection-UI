@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local configuration and runtime data
+.env
+*.log
+*.pcap
+*.pcapng
+*.cap
+
+# Trained model files are maintained in a private model store.
+backend/models/*
+!backend/models/.gitkeep
+backend/attribution/*
+!backend/attribution/.gitkeep
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
