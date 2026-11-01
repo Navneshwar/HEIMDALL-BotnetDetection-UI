@@ -18,10 +18,7 @@ frontend/.vite/
 *.cap
 
 # Trained model files are maintained in a private model store.
-backend/models/*
-!backend/models/.gitkeep
-backend/attribution/*
-!backend/attribution/.gitkeep
+
 
 # Editor / OS
 .DS_Store
